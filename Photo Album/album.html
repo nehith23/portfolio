@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Photo Album</title>
+
+    <style>
+    .photo-album
+    {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 10px;
+    }
+    .photo-album .col-12
+    {
+      padding: 10px;
+    }
+    body
+    {
+			background-image: url("track.jpg");
+			background-size: cover;
+			background-color: rgba(0, 0, 0, 0.5);
+		}
+		.my-img
+    {
+			max-width: 500px;
+			max-height: 500px;
+		}
+    @media (max-width: 768px)
+    {
+			body
+      {
+				background-image: none;
+			}
+		}
+  </style>
+
+  </head>
+  <body>
+    <center>
+  		<h1 style="color: white";>Image Gallery</h1>
+      <p style="color: white";>Let's explore the world of F1 racing!!!</p>
+  	</center>
+
+    <nav id="navbar-example2" class="navbar navbar-light bg-light px-2">
+      <a class="navbar-brand" href="#">FORMULA 1</a>
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link" href="#scrollspyHeading1">F1 Cars</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#scrollspyHeading2">F1 Drivers</a>
+        </li>
+      </ul>
+    </nav>
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+      <br>
+      <center>
+        <h4 id="scrollspyHeading1" style="color: white";>F1 CARS</h4>
+      </center>
+      <p>
+        <div class="row photo-album">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <img class="img-fluid" src="ferrari.jpg" alt="Image 1">
+          </div>
+          <br>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <img class="img-fluid" src="mercedes.jpg" alt="Image 2">
+          </div>
+          <br>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <img class="img-fluid" src="redbull.jpg" alt="Image 3">
+          </div>
+          <br>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <img class="img-fluid" src="astonmartin.jpg" alt="Image 4">
+          </div>
+          <br>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <img class="img-fluid" src="alphatauri.jpg" alt="Image 5">
+          </div>
+          <br>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <img class="img-fluid" src="alfaromeo.jpeg" alt="Image 6">
+          </div>
+          <br>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <img class="img-fluid" src="haas.jpg" alt="Image 7">
+          </div>
+          <br>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <img class="img-fluid" src="mclaren.jpg" alt="Image 8">
+          </div>
+          <br>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <img class="img-fluid" src="william.jpg" alt="Image 9">
+          </div>
+          <br>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <img class="img-fluid" src="alpine.jpg" alt="Image 10">
+          </div>
+          <br>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <img class="img-fluid" src="bmw.jpg" alt="Image 11">
+          </div>
+          <br>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <img class="img-fluid" src="renault.jpg" alt="Image 12">
+          </div>
+          <br>
+        </div>
+      </p>
+
+      <br>
+      <center>
+        <h4 id="scrollspyHeading2" <div class="p-3 mb-2 bg-light text-dark">F1 DRIVERS</div>></h4>
+      </center>
+      <p>
+        <div class="row photo-album">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <img class="img-fluid" src="https://d3cm515ijfiu6w.cloudfront.net/wp-content/uploads/2022/05/28163531/charles-leclerc-monaco-planetf1.jpg" alt="Image 1" >
+          </div>
+          <br>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <img class="img-fluid" src="https://d3cm515ijfiu6w.cloudfront.net/wp-content/uploads/2022/12/18133507/lewis-hamilton-thumbs-up-planetf1.jpg" alt="Image 2">
+          </div>
+          <br>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <img class="img-fluid" src="https://d3cm515ijfiu6w.cloudfront.net/wp-content/uploads/2022/10/24000612/max-verstappen-smiles-trophy-planetf1.jpg" alt="Image 3">
+          </div>
+          <br>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <img class="img-fluid" src="https://d3cm515ijfiu6w.cloudfront.net/wp-content/uploads/2023/02/15152007/fernando-alonso-aston-martin-headshot-planetf1.jpg" alt="Image 4">
+          </div>
+          <br>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <img class="img-fluid" src="https://d3cm515ijfiu6w.cloudfront.net/wp-content/uploads/2022/06/01171553/pierre-gasly-monaco-grand-prix-planetf1.jpg" alt="Image 5">
+          </div>
+          <br>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <img class="img-fluid" src="https://d3cm515ijfiu6w.cloudfront.net/wp-content/uploads/2022/05/23094838/valtteri-bottas-cool-towel-spain-grid-planetf1.jpg" alt="Image 6">
+          </div>
+          <br>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <img class="img-fluid" src="https://d3cm515ijfiu6w.cloudfront.net/wp-content/uploads/2022/11/26182531/Nico-Hulkenberg-talking-to-a-Haas-engineer-planetF1.jpg" alt="Image 7">
+          </div>
+          <br>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <img class="img-fluid" src="https://d3cm515ijfiu6w.cloudfront.net/wp-content/uploads/2023/02/27054909/lando-norris-looking-serious-planetf1.jpg" alt="Image 8">
+          </div>
+          <br>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <img class="img-fluid" src="https://d3cm515ijfiu6w.cloudfront.net/wp-content/uploads/2023/02/08123640/alex-albon-williams-2023-launch-planetf1.jpg" alt="Image 9">
+          </div>
+          <br>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <img class="img-fluid" src="https://d3cm515ijfiu6w.cloudfront.net/wp-content/uploads/2022/03/18164345/esteban-ocon-alpine-listening-garage-planetf1.jpg" alt="Image 10">
+          </div>
+          <br>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <img class="img-fluid" src="https://d3cm515ijfiu6w.cloudfront.net/wp-content/uploads/2022/06/12190735/george-russell-baku-podium-applause-planetf1.jpg" alt="Image 11">
+          </div>
+          <br>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <img class="img-fluid" src="https://d3cm515ijfiu6w.cloudfront.net/wp-content/uploads/2023/02/04195501/daniel-ricciardo-suzuka-2022-planetf1.jpg" alt="Image 12">
+          </div>
+          <br>
+        </div>
+      </p>
+
+
+        </div>
+      </p>
+    </div>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
